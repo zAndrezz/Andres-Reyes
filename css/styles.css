@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #357b70;
+    --secondary-color: #e0b354;
+    --dark-grey: #2b2b2b;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -31,11 +37,11 @@ h3 {
 }
 
 a {
-    color: #00675c;
+    color: var(--primary-color);
 }
 
 a:visited {
-    color: #05676e;
+    color: var(--primary-color);
 }
 
 a:hover,
@@ -44,7 +50,7 @@ a:focus {
 }
 
 a:active {
-    color: #489c79;
+    color: var(--primary-color);
 }
 
 button,
@@ -215,12 +221,6 @@ input[type="submit"]:focus {
 
 .cloud-back {
     animation: 34s cloud-move-reverse infinite alternate linear;
-}
-
-:root {
-    --primary-color: #357b70;
-    --secondary-color: #e0b354;
-    --dark-grey: #2b2b2b;
 }
 
 a {
