@@ -9,6 +9,7 @@ body {
     font-size: 18px;
     line-height: 1.6;
     padding: 16px;
+    color: hsl(195, 18%, 60%)
 }
 
 main {
@@ -300,8 +301,4 @@ a {
 
 a {
     color: #357b70;
-}
-
-body {
-    background-color: blanchedalmond;
 }
