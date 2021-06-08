@@ -224,7 +224,7 @@ input[type="submit"]:focus {
 }
 
 a {
-    color: #357b70;
+    color: var(--primary-color);
 }
 
 .bg-darker {
