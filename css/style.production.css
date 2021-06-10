@@ -107,9 +107,9 @@
     }
     
     .profile {
+        text-align: center;
         max-width: 1000px;
         margin: 0 auto;
-        text-align: center;
         padding: 50px;
     }
     
@@ -340,4 +340,11 @@
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
+    }
+    
+    .about-me-page {
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 50px;
     }
