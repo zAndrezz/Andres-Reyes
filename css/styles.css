@@ -308,17 +308,22 @@ a {
 
 a {
     color: #357b70;
+    text-decoration: none;
 }
 
 .logo {
-    -webkit-transform: translate(50%, -50%);
-    transform: translate(50%, -50%);
+    display: inline;
+    -webkit-transform: translate(40%, -40%);
+    transform: translate(40%, -40%);
     text-transform: uppercase;
     font-family: verdana;
-    font-size: 40px;
-    font-weight: 40;
-    color: #cccee7;
-    text-shadow: 1px 1px 1px #6d7ca7, 1px 2px 1px #05216e, 1px 3px 1px #05216e, 1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #05216e, 1px 10px 1px #05216e, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #05216e, 1px 2px 1px #05216e, 1px 3px 1px #05216e, 1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #05216e, 1px 10px 1px #05216e, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2), 1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
 .social-media {
