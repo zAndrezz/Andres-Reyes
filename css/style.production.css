@@ -315,6 +315,7 @@ a {
     transform: translate(50%, -50%);
     text-transform: uppercase;
     font-family: verdana;
+    text-align: left;
     font-size: 30px;
     font-weight: 40;
     color: #ffffff;
